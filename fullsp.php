@@ -59,7 +59,7 @@
                                             <input type="submit"  name="addcart" class="add-to-cart">
                                             <input type="hidden" name="soluong" value="1">
                                             <input type="hidden" name="tensp" value="<?php echo $row["tensp"] ?>">
-                                            <input type="hidden" name="dongiamoi" value="<?php echo $row["dongiamoi"] ?> 000 VNĐ">
+                                            <input type="hidden" name="dongiamoi" value="<?php echo $row["dongiamoi"] ?> 000.000 VNĐ">
                                             <input type="hidden" name="img1" value="<?php echo $row["img1"] ?>">   
                                     </form>
                             <!-- <div class="add-to-cart"><a href="#"><span>Add to cart</span></a></div> -->
@@ -68,7 +68,7 @@
                         <div class="caption product-detail text-center">
                           <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span> </div>
                           <h6 data-name="product_name" class="product-name"><a href="#" title="Casual Shirt With Ruffle Hem"><?php echo $row["tensp"] ?></a></h6>
-                          <span class="price"><span class="amount"><span class="currencySymbol"></span><?php echo $row["dongiamoi"] ?> 000 VNĐ</span>
+                          <span class="price"><span class="amount"><span class="currencySymbol"></span><?php echo $row["dongiamoi"] ?> 000.000 VNĐ</span>
                           </span>
                         </div>
                       </div>

@@ -57,7 +57,7 @@ $row = mysqli_fetch_array($result);
                 <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-1x"></i></span>
                 <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i><i class="fa fa-star fa-stack-x"></i></span>
               </div>
-              <span class="price mb_20"><span class="amount"><span class="currencySymbol">Đơn giá :</span><?php echo $row["dongiamoi"] ?> 000 VNĐ</span>
+              <span class="price mb_20"><span class="amount"><span class="currencySymbol">Đơn giá :</span><?php echo $row["dongiamoi"] ?> 000.000 VNĐ</span>
               </span>
               <hr>
               <ul class="list-unstyled product_info mtb_20">
@@ -92,7 +92,7 @@ $row = mysqli_fetch_array($result);
                 </div>
                                         
                                             <input type="hidden" name="tensp" value="<?php echo $row["tensp"] ?>">
-                                            <input type="hidden" name="dongiamoi" value="<?php echo $row["dongiamoi"] ?> 000 VNĐ">
+                                            <input type="hidden" name="dongiamoi" value="<?php echo $row["dongiamoi"] ?> 000.000 VNĐ">
                                             <input type="hidden" name="img1" value="<?php echo $row["img1"] ?>">   
                                               <input type="submit" value="Thêm vào giỏ hàng" name="addcart" class="btn mt_30">
                                         
